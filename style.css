@@ -1,0 +1,245 @@
+/**
+ *
+ *
+ * Theme Name: Gettysburg Address
+ * Theme URI: https://www.engr.uconn.edu
+ * Author: O. Echevarria
+ * Author URI: https://www.engr.uconn.edu
+ * Description: Our default theme for 2021 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+ * Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+ * Version: 0.1
+ * Requires at least: 5.0
+ * Tested up to: 7.0
+ * Requires PHP: 7.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: gettysburg_address
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned with others.
+ *
+ * 
+ **/
+
+/**
+ *
+ * banner configuration additions
+ *
+ * see uconn-banner-css/uconn-banner.css for more information
+ * 
+ * 
+ **/
+
+#uconn-banner .row-container, #site-title-container, #page-container, #post-container, #archive-container, #main-row .row-container, #page-footer-container  {
+
+    max-width: 1200px;
+	
+}
+
+/* body section */
+
+body {
+    
+    background-color: #000e2f !important;
+    
+}
+
+
+/* navigation section */
+
+.top-bar, .top-bar ul, #navigation-container {
+    background-color: #e6e6e6;
+}
+
+#navigation-container {
+    
+    display: block;
+    
+}
+
+#main-nav, #main-row .row-container  {
+    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* end navigation */
+
+/* site title section */
+
+#site-header-container {
+    
+    min-height: 100px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#site-title-container {
+	
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+	
+}
+
+#site-name > #level-one-title{
+	
+	font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+    display: block;
+	
+}
+
+#site-name > #level-two-title {
+    
+	font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+	font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+/* end of site title section */
+
+/* info section */
+div.infoboxes h3.widget-title {
+
+    font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+
+}
+
+/* content section definitions */
+
+#archive-content-container{
+    
+    display: block;
+    width: 100%;
+    
+}
+#page-content-container{
+    
+    display: block;
+    width: 100%;
+    
+}
+
+#post-content-container{
+    
+    display: block;
+    width: 100%;
+    
+}
+
+h1.header-content, h2.header-content, h3.header-content, h1, h2, h3, h4, h5, h6{
+    
+	font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+
+.columns {
+
+padding-left: 0.53em;
+padding-right: 0.53em;
+
+}
+
+/* body section */
+
+body.home.page {
+
+background-color: #a1a1a1;
+
+}
+
+#archive-content-container {
+    
+    background-color: #ffffff;
+    
+}
+#page-content-container {
+    
+    background-color: #ffffff;
+    
+}
+
+#post-content-container {
+    
+    background-color: #ffffff;
+    
+}
+
+
+/* footer section */
+
+footer {
+    
+    background-color: #000e2f;    
+    padding-top: 15px;
+    
+}
+
+#page-footer-container {
+    
+    min-height: 200px;
+
+}
+
+ul#default-footer-menu {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    
+}
+
+ul#default-footer-menu li{
+    
+    display: inline-block;
+    
+}
+
+ul#default-footer-menu li a{
+
+    padding-right: 10px;
+    color: #fff;
+    
+}
+
+ul#default-footer-menu li a:hover{
+
+    color: #c1c1c1;
+    text-decoration: underline;
+    
+}
+
+
+.aligncenter {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.alignright {
+    
+    position: relative;
+    float: right;
+    
+}
+
+.alignleft {
+    
+    position: relative;
+    float: left;
+    
+}
